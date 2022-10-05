@@ -22,7 +22,7 @@ def root():
     return render_template("index.html")
 
 @app.get("/api/cupcakes")
-def root()
+def list_cupcakes()
     """Return info on all cupcakes like
     {cupcakes: [{id, flavor, size, rating, image}, ...]}"""
 
