@@ -6,7 +6,7 @@ db = SQLAlchemy()
 
 DEFAULT_IMAGE = "https://tinyurl.com/demo-cupcake"
 
-class Cupcakes(db.model):
+class Cupcake(db.Model):
     """Cupcakes"""
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
