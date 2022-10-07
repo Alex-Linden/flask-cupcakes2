@@ -1,7 +1,6 @@
 """Models for Cupcake app."""
 
 from flask_sqlalchemy import SQLAlchemy
-from traitlets import default
 
 db = SQLAlchemy()
 
